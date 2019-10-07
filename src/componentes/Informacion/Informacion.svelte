@@ -9,17 +9,22 @@
             outline: 1px solid blue;
         } */
 
-        article {
-            max-width: 360px;
-            height: 30rem;
-            background-color: rgb(255, 255, 255);
-        }
 
         .Informacion {
-            max-width: 32%;
+            
+            
+            max-width: 360px;
+            height: 30rem;
+            
             display: flex;
             align-items: center;
             flex-direction: column;
+            
+            background-color: #fff;
+            color: #333;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+            
+            
         }
 
         .Encabezado {
@@ -43,6 +48,10 @@
             font-weight: normal;
             font-size: 1rem;
             line-height: 1.5rem;
+        }
+
+        .Texto * {
+            padding-right: 1rem;
         }
 
         .Subtitulo {
@@ -77,7 +86,7 @@
     
 </style>
     
-<article class="Informacion">
+<section class="Informacion">
     <header class="Encabezado">
     <div class="TituloEncabezado">
         <figure class="TituloMapa">
@@ -107,4 +116,4 @@
             </p>
         </div>
     </div>
-</article>
+</section>

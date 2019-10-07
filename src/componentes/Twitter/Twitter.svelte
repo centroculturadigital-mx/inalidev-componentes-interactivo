@@ -9,24 +9,28 @@
             outline: 1px solid blue;
         } */
 
-        article {
+
+        .Twitter {
             max-width: 360px;
             height: 30rem;
-        }
-
-        .ContenedorTwitter {
-            max-width: 32%;
             display: flex;
             align-items: center;
             flex-direction: column;
+            background-color: #fff;
+            color: #333;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
         }
 
+
         .Encabezado {
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
             width: 100%;
             height: 5rem;
             background: #878787;;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 10px 10px 0px 0px;
             margin-bottom: 1.5rem;
         }
 
@@ -88,7 +92,7 @@
 
 </style>
     
-<article class="ContenedorTwitter">
+<section class="Twitter">
     <header class="Encabezado">
     <div class="ContenedorEncabezado">
         <div class="IconoTwitter">
@@ -113,4 +117,4 @@
             <Tweet/>
         </div>
     </div>
-</article>
+</section>
