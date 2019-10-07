@@ -10,7 +10,7 @@
 
 <style>
 	* {
-		outline: 1px solid blue;
+		outline: 1px solid rgb(141, 141, 143);
 	}
 	
 	 .Contenedor-1 {
