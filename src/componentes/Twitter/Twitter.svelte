@@ -25,13 +25,13 @@
 
 
         .Encabezado {
-            border-top-left-radius: 1rem;
-            border-top-right-radius: 1rem;
             width: 100%;
             height: 5rem;
             background: #878787;;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
             margin-bottom: 1.5rem;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
         }
 
         .ContenedorTweets {
@@ -46,12 +46,12 @@
             font-weight: normal;
             font-size: 1rem;
             line-height: 1.5rem;
-            /* margin-bottom: 1rem; */
             display: flex;
             flex-direction: column;
+            align-items: center;
+            /* margin-bottom: 1rem; */
             /* align-content: space-around; */
             /* justify-content: space-around; */
-            align-items: center;
         }
 
         .ContenedorEncabezado {

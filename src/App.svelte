@@ -5,6 +5,7 @@
 	import Informacion from "./componentes/Informacion/Informacion.svelte";
 	import Twitter from "./componentes/Twitter/Twitter.svelte";
 	import Tweet from "./componentes/Twitter/Tweet.svelte";
+	import FraseViva from "./componentes/FraseViva/FraseViva.svelte";
 
 </script>
 
@@ -17,7 +18,16 @@
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
-		align-content: space-between;
+		align-content: space-around;
+		padding: 1rem;
+	}
+
+	.FraseViva {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-content: space-around;
+		padding: 1rem;
 	}
 
 
@@ -30,6 +40,9 @@
 			<Twitter/>
 			<IconoTwitterAzul/>
 			<IconoVoluta/>
+			<div class="FraseViva">
+				<FraseViva/>
+			</div>
 		
 		
 </div>

@@ -1,5 +1,5 @@
 <script>
-    import IconoInforma from "./Iconos/IconoInforma.svelte";
+    import IconoInformacion from "./Iconos/IconoInformacion.svelte";
     import TituloMapa from "./Iconos/TituloMapa.svelte";
 </script>
 
@@ -11,20 +11,14 @@
 
 
         .Informacion {
-            
-            
             max-width: 360px;
             height: 30rem;
-            
             display: flex;
             align-items: center;
             flex-direction: column;
-            
             background-color: #fff;
             color: #333;
             box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
-            
-            
         }
 
         .Encabezado {
@@ -76,7 +70,7 @@
             flex-shrink: 1;
         }
 
-        .IconoInforma {
+        .IconoInformacion {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -92,8 +86,8 @@
         <figure class="TituloMapa">
             <TituloMapa/>
         </figure>
-        <figure class="IconoInforma">
-            <IconoInforma/>
+        <figure class="IconoInformacion">
+            <IconoInformacion/>
         </figure>
     </div>
     </header>
