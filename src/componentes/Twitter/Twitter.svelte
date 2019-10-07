@@ -1,5 +1,5 @@
 <script>
-
+    import IconoTwitter from "./Iconos/IconoTwitter.svelte";
 </script>
 
 <style>
@@ -11,10 +11,10 @@
         article {
             max-width: 360px;
             height: 30rem;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(201, 185, 185);
         }
 
-        .Informacion {
+        .ContenedorTwitter {
             max-width: 32%;
             display: flex;
             align-items: center;
@@ -23,35 +23,35 @@
 
         .Encabezado {
             width: 100%;
-            height: 7rem;
-            background: #516980;
+            height: 5rem;
+            background: #878787;;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 0px 0px 0px 40px;
+            border-radius: 10px 10px 0px 0px;
+            margin-bottom: 1.5rem;
         }
 
         .Acerca {
             padding: 0 2rem;
         }
 
-        .Texto {
+        .Tweets {
             width: 100%;
-            max-height: 17rem;
+            max-height: 22rem;
             overflow: auto;
             color: #5E5E5E;
             font-style: normal;
             font-weight: normal;
             font-size: 1rem;
             line-height: 1.5rem;
+            
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
         }
 
-        .Subtitulo {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 1.2rem;
-            color: #878787;
-        }
+       
 
-        .TituloEncabezado {
+        .ContenedorEncabezado {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -59,37 +59,40 @@
             align-items: center;
         }
 
-        .TituloMapa {
+        .IconoTwitter {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-shrink: 1;
         }
 
-        .IconoInforma {
+        .TituloTwitter {
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-shrink: 1.5;
+            flex-shrink: 1;
         }
         
     
 </style>
     
-<article class="Informacion">
+<article class="ContenedorTwitter">
     <header class="Encabezado">
-    <div class="TituloEncabezado">
-        <figure class="TituloMapa">
+    <div class="ContenedorEncabezado">
+        <figure class="IconoTwitter">
+            <IconoTwitter/>
         </figure>
-        <figure class="IconoInforma">
+        <div class="TituloTwitter">
+            <h3>Activismo lingüístico</h3>
+        </div>
+        <figure class="IconoCerrar">
+           <i>icon</i>
         </figure>
     </div>
     </header>
     <div class="Acerca">
-        <p class="Subtitulo">
-            ACERCA DE 
-        </p>
-        <div class="Texto">
+        
+        <div class="Tweets">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod quidem delectus hic aspernatur sit eum rem laborum sequi, recusandae similique ut totam, dolores dignissimos veniam. Voluptatem error ipsam ipsa!
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis hic illo dolore a voluptate perspiciatis, beatae nisi odit distinctio maiores reiciendis corporis obcaecati veniam, illum possimus at? Delectus, vitae.
