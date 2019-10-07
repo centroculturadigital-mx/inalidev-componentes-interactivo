@@ -1,5 +1,5 @@
 <script>
-    import IconoTwitter from "./Iconos/IconoTwitter.svelte";
+    import IconoTwitterVentana from "./Iconos/IconoTwitterVentana.svelte";
 </script>
 
 <style>
@@ -11,7 +11,6 @@
         article {
             max-width: 360px;
             height: 30rem;
-            background-color: rgb(201, 185, 185);
         }
 
         .ContenedorTwitter {
@@ -30,7 +29,7 @@
             margin-bottom: 1.5rem;
         }
 
-        .Acerca {
+        .ContenedorTweets {
             padding: 0 2rem;
         }
 
@@ -38,7 +37,6 @@
             width: 100%;
             max-height: 22rem;
             overflow: auto;
-            color: #5E5E5E;
             font-style: normal;
             font-weight: normal;
             font-size: 1rem;
@@ -49,49 +47,61 @@
             align-content: space-around;
         }
 
-       
-
         .ContenedorEncabezado {
             display: flex;
+            padding: 0 2rem;
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-between;
-            align-items: center;
         }
 
-        .IconoTwitter {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 1;
-        }
-
-        .TituloTwitter {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 1;
-        }
         
-    
+        .IconoTwitter {
+            justify-content: flex-start !important;
+            flex-basis: 60%;
+            color: #fff;
+            margin-left: -2.5rem;
+        }
+
+        .Activismo {
+            display: flex;
+            align-items: center;
+            flex-basis: 125%;
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 1.5rem;
+            color: #fff;
+        }
+
+        .IconoCerrar {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            justify-content: center;
+            margin-right: -0.5rem;
+        }
+
+
+
 </style>
     
 <article class="ContenedorTwitter">
     <header class="Encabezado">
     <div class="ContenedorEncabezado">
-        <figure class="IconoTwitter">
-            <IconoTwitter/>
-        </figure>
-        <div class="TituloTwitter">
-            <h3>Activismo lingüístico</h3>
+        <div class="IconoTwitter">
+            <IconoTwitterVentana/>
         </div>
-        <figure class="IconoCerrar">
+        <div class="Activismo">
+            <span>
+                Activismo lingüístico
+            </span>
+        </div>
+        <div class="IconoCerrar">
            <i>icon</i>
-        </figure>
+        </div>
     </div>
     </header>
-    <div class="Acerca">
-        
+    <div class="ContenedorTweets">
         <div class="Tweets">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod quidem delectus hic aspernatur sit eum rem laborum sequi, recusandae similique ut totam, dolores dignissimos veniam. Voluptatem error ipsam ipsa!
