@@ -1,9 +1,10 @@
 <script>
 	
-	// import VolutaIcono from "./componentes/VolutaIcono.svelte";
-	// import TwitterIcono from "./componentes/TwitterIcono.svelte";
+	import IconoVoluta from "./componentes/Voluta/IconoVoluta.svelte";
+	import IconoTwitterAzul from "./componentes/Twitter/Iconos/IconoTwitterAzul.svelte";
 	import Informacion from "./componentes/Informacion/Informacion.svelte";
 	import Twitter from "./componentes/Twitter/Twitter.svelte";
+	import Tweet from "./componentes/Twitter/Tweet.svelte";
 
 </script>
 
@@ -13,7 +14,6 @@
 	}
 	
 	 .Contenedor-1 {
-		/* width: 100%; */
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
@@ -21,22 +21,15 @@
 	}
 
 
-
-
-
-
 </style>
-
-<head>
-    <script src="https://kit.fontawesome.com/096c98e281.js" crossorigin="anonymous"></script>
-</head>
 
 
 <div class="Contenedor-1">
 		
 			<Informacion/>
 			<Twitter/>
-		
+			<IconoTwitterAzul/>
+			<IconoVoluta/>
 		
 		
 </div>
